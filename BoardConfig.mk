@@ -16,9 +16,9 @@
 
 include device/lge/z-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := cyanogenmod_f340k_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_lgl23_defconfig
 
-TARGET_OTA_ASSERT_DEVICE := f340k,z,galbi,f340k
+TARGET_OTA_ASSERT_DEVICE := f340k,z,galbi,f340k,lgl23
 
-Z_DTS_TARGET := msm8974-z-open_com
+Z_DTS_TARGET := msm8974-z-kddi
 

@@ -3,7 +3,7 @@
 set -e
 
 VENDOR=lge
-DEVICE=f340k
+DEVICE=lgl23
 
 if [ $# -eq 0 ]; then
   SRC=adb

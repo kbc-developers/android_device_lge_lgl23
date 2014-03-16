@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/lge/f340k/f340k-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/lgl23/lgl23-vendor.mk)
 $(call inherit-product, device/lge/z-common/z.mk)
 
 ## overlays
@@ -23,10 +23,12 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.lteOnGsmDevice=1 \
-	ro.telephony.default_network=9
+	ro.telephony.default_network=10 \
+	ro.cdma.home.operator.numeric=311480 \
+	ro.cdma.home.operator.alpha=KDDI
 
 PRODUCT_COPY_FILES += \
-	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
+        frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
 
 # NFC packages
 PRODUCT_PACKAGES += \
