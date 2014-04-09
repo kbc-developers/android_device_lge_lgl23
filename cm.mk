@@ -15,8 +15,8 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 $(call inherit-product, device/lge/lgl23/lgl23.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := LGL23
-PRODUCT_NAME := cm_LGL23
+PRODUCT_DEVICE := lgl23
+PRODUCT_NAME := cm_lgl23
 PRODUCT_BRAND := KDDI
 PRODUCT_MODEL := LGL23
 PRODUCT_MANUFACTURER := lge
