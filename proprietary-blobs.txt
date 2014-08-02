@@ -249,7 +249,7 @@ vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/libxml.so
 vendor/lib/pp_proc_plugin.so
 #vendor/lib/mediadrm/libwvdrmengine.so
-vendor/firmware/BCM20791B5_002.006.013.0011.0032_Generic_I2C_NCD_Signed_configdata.ncd
-vendor/firmware/BCM20791B5_002.006.013.0011.0032_Generic_PreI2C_NCD_Signed_configdata.ncd
+#vendor/firmware/BCM20791B5_002.006.013.0011.0032_Generic_I2C_NCD_Signed_configdata.ncd
+#vendor/firmware/BCM20791B5_002.006.013.0011.0032_Generic_PreI2C_NCD_Signed_configdata.ncd
 #vendor/firmware/a330_pfp.fw
 #vendor/firmware/a330_pm4.fw
